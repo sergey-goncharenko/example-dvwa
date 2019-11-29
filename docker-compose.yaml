@@ -15,9 +15,8 @@ services:
     image: wallarm/fast
     environment:
       WALLARM_API_TOKEN: ${WALLARM_API_TOKEN}
-      WALLARM_API_HOST: api.wallarm.com
+      WALLARM_API_HOST: us1.api.wallarm.com
       CI_MODE: recording
-      # TEST_RUN_POLICY_ID: 215
       ALLOWED_HOSTS: dvwa
     networks:
       main:
