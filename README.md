@@ -9,12 +9,10 @@ Learn more about FAST:
 
 ## How to run tests locally
 
-Install Docker and Docker Compose.
-
-Create your FAST node here:
+1. Install Docker and Docker Compose.
+2. Create your FAST node here:
 https://us1.my.wallarm.com/nodes.
-
-Replace WALLARM_API_TOKEN in ./local.sh and run it.
+3. Replace WALLARM_API_TOKEN in ./local.sh and run it.
 
 ## What is happening
 
