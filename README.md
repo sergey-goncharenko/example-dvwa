@@ -30,7 +30,7 @@ Run the target application. Test environment consists of Wallarm FAST and Seleni
 sudo -E docker-compose up -d dvwa fast selenium
 ```
 
-The next step runs the tests. The 'test' container consists of a Python script with a few selenium tests. This is equivalent to a testing stage of your CD/CD pipeline.
+The next step runs the tests. The `test` container consists of a Python script with a few selenium tests. This is equivalent to a testing stage of your CD/CD pipeline.
 
 ```
 sudo -E docker-compose run test
