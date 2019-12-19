@@ -18,7 +18,7 @@ Replace WALLARM_API_TOKEN in ./local.sh and run it.
 
 ## What is happening
 
-Building your application. In this example, DVWA is used as an example of the vulnerable web application (more info at http://www.dvwa.co.uk). The build includes a preconfigured database to skip the registration process. This is an equivalent to build stage of your CI/CD pipeline.
+Building your application. In this example, [DVWA - Damn Vulnerable Web Application](http://www.dvwa.co.uk) is used as an example of the vulnerable web application. The build includes a preconfigured database to skip the registration process. This is an equivalent to build stage of your CI/CD pipeline.
 
 ```
 sudo -E docker-compose build
