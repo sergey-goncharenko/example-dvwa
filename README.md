@@ -2,6 +2,7 @@
 # README
 
 This is an example of Wallarm FAST integration with the DVWA using Selenium tests.
+
 Learn more about Wallarm FAST: https://wallarm.com/products/fast
 
 ## How to run tests locally
